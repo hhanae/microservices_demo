@@ -12,7 +12,6 @@
 
 <p align="center">
   <a href="#how-it-works">Why to work with Microservices Architecture ?</a> •
-  <a href="#getting_started">Getting Started</a> •
   <a href="#prerequisites">Prerequisites</a> •
   <a href="#project_structure">Project Stucture</a> •
   <a href="#steps">Steps</a> 
@@ -29,7 +28,7 @@ As for the principles of operation of a separate microservice, it lies in the fa
 Thus, even the most complex multi-stage tasks can be implemented with the least resource consumption. At the same time, a combination of various microservices gives companies access to solving a wide variety of problems without requiring the implementation of full-fledged software components with independent interfaces.
 
 
-## How To Use
+## Prerequisites
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
