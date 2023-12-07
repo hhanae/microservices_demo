@@ -105,31 +105,32 @@ microservices-demo
 
 ## Steps
 
-You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Markdownify for Windows, macOS and Linux.
+provide you with a step-by-step guide on how to create separate Spring Boot projects for the client service, voiture service, Eureka server, and Spring Cloud Gateway.
 
-
-
-- [Electron](http://electron.atom.io/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-- [showdown](http://showdownjs.github.io/showdown/)
-- [CodeMirror](http://codemirror.net/)
-- Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
-- [highlight.js](https://highlightjs.org/)
-
-## Related
-
-[markdownify-web](https://github.com/amitmerchant1990/markdownify-web) - Web version of Markdownify
-
-## Support
-
-<a href="https://www.buymeacoffee.com/5Zn8Xh3l9" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
-<p>Or</p> 
-
-<a href="https://www.patreon.com/amitmerchant">
-	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
+# Step 1: Create a Spring Boot Project for Client Service
+Open your preferred IDE (such as IntelliJ IDEA or Eclipse).
+Create a new Spring Boot project.
+Add the necessary dependencies, including Spring Web and Spring Data JPA.
+Create the Client entity and repository.
+Implement the service and controller for the client.
+Step 2: Create a Spring Boot Project for Voiture Service
+Open your IDE.
+Create a new Spring Boot project.
+Add the necessary dependencies, including Spring Web and Spring Data JPA.
+Create the Voiture entity and repository.
+Implement the service and controller for the voiture.
+Step 3: Create a Spring Boot Project for Eureka Server
+Open your IDE.
+Create a new Spring Boot project.
+Add the necessary dependencies, including Eureka Server.
+Annotate the main class with @EnableEurekaServer.
+Configure the application.properties file for the Eureka server.
+Step 4: Create a Spring Boot Project for Spring Cloud Gateway
+Open your IDE.
+Create a new Spring Boot project.
+Add the necessary dependencies, including Spring Cloud Gateway.
+Create a GatewayConfig class to configure routes.
+Configure the application.properties file for the gateway.
 
 ## You may also like...
 
