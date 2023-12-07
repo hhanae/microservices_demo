@@ -17,7 +17,7 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot]([https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwezom.com%2Fblog%2Fwhat-is-microservices-architecture&psig=AOvVaw1KVaPT2nCe480uCGYu_rKD&ust=1702056130366000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCICpsKrr_YIDFQAAAAAdAAAAABAT))
+![screenshot](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwezom.com%2Fblog%2Fwhat-is-microservices-architecture&psig=AOvVaw1KVaPT2nCe480uCGYu_rKD&ust=1702056130366000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCICpsKrr_YIDFQAAAAAdAAAAABAT)
 
 ## Key Features
 
