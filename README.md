@@ -11,7 +11,7 @@
 
 
 <p align="center">
-  <a href="#why-to-work-with-microservices-architecture-?">Why to work with Microservices Architecture ?</a> •
+  <a href="#key-features">Why to work with Microservices Architecture ?</a> •
   <a href="#getting_started">Getting Started</a> •
   <a href="#prerequisites">Prerequisites</a> •
   <a href="#project_structure">Project Stucture</a> •
