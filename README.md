@@ -7,6 +7,8 @@
 
 <h4 align="center">Welcome to the Microservices Lab Project! This project is designed to help you understand the basic concepts of <a href="https://cloud.google.com/learn/what-is-microservices-architecture?hl=fr#:~:text=L'architecture%20de%20microservices%20(ou,%C3%A9l%C3%A9ment%20ayant%20ses%20propres%20responsabilit%C3%A9s.)" target="_blank">microservices architecture</a> in computer science.</h4>
 
+![Microservices_architecture](https://github.com/hhanae/microservices_demo/assets/97336261/4ceb4237-4a9c-41d7-a8c0-bb2a282ff50e)
+
 
 <p align="center">
   <a href="#key-features">Key Features</a> •
@@ -17,7 +19,7 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwezom.com%2Fblog%2Fwhat-is-microservices-architecture&psig=AOvVaw1KVaPT2nCe480uCGYu_rKD&ust=1702056130366000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCICpsKrr_YIDFQAAAAAdAAAAABAT)
+
 
 ## Key Features
 
