@@ -39,7 +39,7 @@ Creating a microservices project with Spring Boot involves several prerequisites
 * Database: MySQL
    
 
-## Prerequisites
+## Project Structure
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
