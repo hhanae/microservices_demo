@@ -50,7 +50,7 @@ In this Lab Project, we created two micro-services: client-service & voiture-ser
 Here is a simplified representation of ou Project Structure:
 ```bash
 microservices-demo
-|-- client-service
+|-- Client
 |   |-- src
 |   |   |-- main
 |   |       |-- java
@@ -65,7 +65,7 @@ microservices-demo
 |   |       |-- resources
 |   |           |-- application.properties
 |
-|-- voiture-service
+|-- Voiture
 |   |-- src
 |   |   |-- main
 |   |       |-- java
@@ -112,47 +112,77 @@ provide you with a step-by-step guide on how to create separate Spring Boot proj
 * Create a new Spring Boot project, named client-service.
 * Add the necessary dependencies, including Spring Web and Spring Data JPA.
 * Create the Client entity:
-  ```bash
-
-  ```
+![image](https://github.com/hhanae/microservices_demo/assets/97336261/5d31aeb8-c7d3-4fa5-9593-bc3f2c6d2acb)
 * Create Client Repository:
-  
+![image](https://github.com/hhanae/microservices_demo/assets/97336261/8362d8f1-31b6-4ba1-8712-a63a17066d3d)
 * Implement the service:
+![image](https://github.com/hhanae/microservices_demo/assets/97336261/30d8e13c-d39b-47f9-a0db-0d32008fdc73)
 * Implement the Controller:
+![image](https://github.com/hhanae/microservices_demo/assets/97336261/4d19c97d-a020-4651-8fd9-6e52d376e0d9)
+* Configure the application.properties file for the Client:
+![image](https://github.com/hhanae/microservices_demo/assets/97336261/186881da-86c8-407f-8914-6dafb3d8f80c)
+* Modify the main class:
+![image](https://github.com/hhanae/microservices_demo/assets/97336261/75c3b8e3-4b5e-4b11-a1e5-8faf6fe46e1d)
+
+
 ### Step 2: Create a Spring Boot Project for Voiture MicroService
 * Open your preferred IDE (such as IntelliJ IDEA).
 * Create a new Spring Boot project, named voiture-service
 * Add the necessary dependencies, including Spring Web and Spring Data JPA.
 * Create the Voiture entity:
+![image](https://github.com/hhanae/microservices_demo/assets/97336261/e3376945-6e6c-4f79-bb89-97d1be70224c)
 * Create Voiture Repository:
+![image](https://github.com/hhanae/microservices_demo/assets/97336261/e0097087-6a46-44df-933e-ec3b46c4e495)
 * Implement the service:
+![image](https://github.com/hhanae/microservices_demo/assets/97336261/03cbda0e-1097-4977-acff-d21b7b7b18e5)
 * Implement the Controller:
+![image](https://github.com/hhanae/microservices_demo/assets/97336261/4e81a074-b2c8-4856-bb7d-c34c3ae743e1)
+* Configure the application.properties file for the Voiture:
+![image](https://github.com/hhanae/microservices_demo/assets/97336261/18d05393-480f-434a-afe8-cf96509b7def)
+* Modify the main class:
+![image](https://github.com/hhanae/microservices_demo/assets/97336261/22b30f6f-c3d9-433d-8bf0-34c95cedb422)
+
 ### Step 3: Create a Spring Boot Project for Eureka Server
 * Open your IDE.
 * Create a new Spring Boot project.
 * Add the necessary dependencies, including Eureka Server.
-* Annotate the main class with @EnableEurekaServer.
-* Configure the application.properties file for the Eureka server.
+* Annotate the main class with @EnableEurekaServer:
+![image](https://github.com/hhanae/microservices_demo/assets/97336261/8839604f-403e-49e5-a7d2-495894a691d4)
+* Configure the application.properties file for the Eureka server:
+![image](https://github.com/hhanae/microservices_demo/assets/97336261/45da5504-c86f-465f-ad90-924e44e962d5)
+
 ### Step 4: Create a Spring Boot Project for Spring Cloud Gateway
 * Open your IDE.
 * Create a new Spring Boot project.
 * Add the necessary dependencies, including Spring Cloud Gateway.
-* Create a GatewayConfig class to configure routes.
-* Configure the application.properties file for the gateway.
-### Step 5: Containerize the app:
+* Create a GatewayConfig class to configure routes:
+![image](https://github.com/hhanae/microservices_demo/assets/97336261/994c4acd-08a4-434e-8326-cd0e7bf7c5b0)
+* Configure the application.properties file for the gateway:
+![image](https://github.com/hhanae/microservices_demo/assets/97336261/19f5a0b1-03e4-43cd-951b-49d0ba796d12)
 
-## You may also like...
+### Step 5: Run the Eureka Server, the Gateway, the Client Microservice & the Voiture Microservice
+Browse for the microservice clients:
+![image](https://github.com/hhanae/microservices_demo/assets/97336261/22d93cc7-cf7b-460e-8890-955e03fbe2b4)
+Browse for the microservice voitures:
+![Uploading image.png…]()
 
-- [Pomolectron](https://github.com/amitmerchant1990/pomolectron) - A pomodoro app
-- [Correo](https://github.com/amitmerchant1990/correo) - A menubar/taskbar Gmail App for Windows and macOS
 
+### Step 6: Containerize the app:
+
+First, we generate the jars of each project by running the command below in each service:
+```bash
+mvn package
+```
+
+Second, we create a dockerfile in each project and we add its jar associated:
+```bash
+
+```
 ## License
 
 MIT
 
 ---
 
-> [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
-> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
-> Twitter [@amit_merchant](https://twitter.com/amit_merchant)
+> Portfolio [@hanim_hanae]([https://twitter.com/amit_merchant](https://hanim-hanae.vercel.app/)https://hanim-hanae.vercel.app/)
 
