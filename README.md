@@ -12,9 +12,9 @@
 
 <p align="center">
   <a href="#why">Why to work with Microservices Architecture ?</a> •
-  <a href="#how-to-use">How To Work with it?</a> •
   <a href="#getting_started">Getting Started</a> •
   <a href="#prerequisites">Prerequisites</a> •
+  <a href="#project_structure">Project Stucture</a> •
   <a href="#steps">Steps</a> •
 </p>
 
