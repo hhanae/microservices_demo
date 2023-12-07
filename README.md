@@ -44,17 +44,57 @@ Creating a microservices project with Spring Boot involves several prerequisites
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
+microservices-demo
+|-- client-service
+|   |-- src
+|   |   |-- main
+|   |       |-- java
+|   |       |   |-- org.ensaj.clientservice
+|   |       |       |-- ClientServiceApplication.java
+|   |       |       |-- model
+|   |       |       |   |-- Client.java
+|   |       |       |-- repository
+|   |       |       |   |-- ClientRepository.java
+|   |       |       |-- service
+|   |       |           |-- ClientService.java
+|   |       |-- resources
+|   |           |-- application.properties
+|
+|-- voiture-service
+|   |-- src
+|   |   |-- main
+|   |       |-- java
+|   |       |   |-- org.ensaj.voitureservice
+|   |       |       |-- VoitureServiceApplication.java
+|   |       |       |-- model
+|   |       |       |   |-- Voiture.java
+|   |       |       |-- repository
+|   |       |       |   |-- VoitureRepository.java
+|   |       |       |-- service
+|   |       |           |-- VoitureService.java
+|   |       |       |-- resources
+|   |       |           |-- application.properties
+|
+|-- eureka-server
+|   |-- src
+|   |   |-- main
+|   |       |-- java
+|   |       |   |-- org.ensaj.eurekaserver
+|   |       |       |-- EurekaServerApplication.java
+|   |       |       |-- resources
+|   |       |           |-- application.properties
+|
+|-- gateway-service
+|   |-- src
+|   |   |-- main
+|   |       |-- java
+|   |       |   |-- org.ensaj.gateway
+|   |       |       |-- GatewayServiceApplication.java
+|   |       |       |-- config
+|   |       |           |-- GatewayConfig.java
+|   |       |       |-- resources
+|   |       |           |-- application.properties
 
-# Go into the repository
-$ cd electron-markdownify
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
 ```
 
 > **Note**
