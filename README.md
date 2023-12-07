@@ -105,7 +105,7 @@ microservices-demo
 
 ## Steps
 
-provide you with a step-by-step guide on how to create separate Spring Boot projects for the client service, voiture service, Eureka server, and Spring Cloud Gateway.
+Here we provide you with a step-by-step guide on how to create separate Spring Boot projects for the client service, voiture service, Eureka server, and Spring Cloud Gateway.
 
 ### Step 1: Create a Spring Boot Project for Client MicroService
 * Open your preferred IDE (such as IntelliJ IDEA).
