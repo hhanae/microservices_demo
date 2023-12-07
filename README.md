@@ -11,7 +11,7 @@
 
 
 <p align="center">
-  <a href="#key-features">Why to work with Microservices Architecture ?</a> •
+  <a href="#how-it-works">Why to work with Microservices Architecture ?</a> •
   <a href="#getting_started">Getting Started</a> •
   <a href="#prerequisites">Prerequisites</a> •
   <a href="#project_structure">Project Stucture</a> •
@@ -20,7 +20,7 @@
 
 
 
-## Key Features
+## How It Works
 
 * LivePreview - Make changes, See changes
   - Instantly see what your Markdown documents look like in HTML as you create them.
