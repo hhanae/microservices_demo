@@ -20,7 +20,7 @@
 
 
 
-## Why to work with Microservices Architecture ?
+## Key Features
 
 * LivePreview - Make changes, See changes
   - Instantly see what your Markdown documents look like in HTML as you create them.
