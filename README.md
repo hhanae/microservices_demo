@@ -41,8 +41,9 @@ Creating a microservices project with Spring Boot involves several prerequisites
 
 ## Project Structure
 
-In this Lab Project, we created two micro-services: client-service & voiture-service:
+In this Lab Project, we created two micro-services: client-service & voiture-service. Furthermore, we created a service called Eureka Server which is a service registry that enables microservices to discover and communicate with each other. Finally, we created Spring Cloud Gateway Which is a powerful and flexible API gateway that provides capabilities such as routing, filtering, and load balancing. 
 
+Here is a simplified representation of ou Project Structure:
 ```bash
 microservices-demo
 |-- client-service
