@@ -182,7 +182,7 @@ Before we continue, be sure the jar was generated in the target folder:
 
 ![image](https://github.com/hhanae/microservices_demo/assets/97336261/dde949a1-8a3e-4705-8b15-91a090c872c6)
 
-Second, we create a dockerfile in each project and we add its jar associated:
+Second, we create a dockerfile in each project and we add its associated jar:
 ```bash
 
 ```
