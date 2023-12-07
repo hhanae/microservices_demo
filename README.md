@@ -162,7 +162,7 @@ provide you with a step-by-step guide on how to create separate Spring Boot proj
 
 ### Step 5: Run the Eureka Server, the Gateway, the Client Microservice & the Voiture Microservice
 Browse for the microservice clients:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/22d93cc7-cf7b-460e-8890-955e03fbe2b4)
+![image](https://github.com/hhanae/microservices_demo/assets/97336261/9a1206ac-475d-472f-83f2-4d2bc9460d14)
 Browse for the microservice voitures:
 ![image](https://github.com/hhanae/microservices_demo/assets/97336261/a48c0937-2cde-4b92-bce2-1122937f637f)
 
