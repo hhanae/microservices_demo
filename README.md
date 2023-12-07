@@ -160,6 +160,11 @@ provide you with a step-by-step guide on how to create separate Spring Boot proj
 * Configure the application.properties file for the gateway:
 ![image](https://github.com/hhanae/microservices_demo/assets/97336261/19f5a0b1-03e4-43cd-951b-49d0ba796d12)
 
+We can get sure that the microservices are saved successfully by serving this url: http://localhost:8761
+
+![image](https://github.com/hhanae/microservices_demo/assets/97336261/afbba49c-772b-4905-9ef1-4b394afb810e)
+
+
 ### Step 5: Run the Eureka Server, the Gateway, the Client Microservice & the Voiture Microservice
 Browse for the microservice clients:
 ![image](https://github.com/hhanae/microservices_demo/assets/97336261/9a1206ac-475d-472f-83f2-4d2bc9460d14)
