@@ -111,14 +111,10 @@ provide you with a step-by-step guide on how to create separate Spring Boot proj
 * Open your preferred IDE (such as IntelliJ IDEA).
 * Create a new Spring Boot project, named client-service.
 * Add the necessary dependencies, including Spring Web and Spring Data JPA.
-* Create the Client entity:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/5d31aeb8-c7d3-4fa5-9593-bc3f2c6d2acb)
-* Create Client Repository:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/8362d8f1-31b6-4ba1-8712-a63a17066d3d)
-* Implement the service:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/30d8e13c-d39b-47f9-a0db-0d32008fdc73)
-* Implement the Controller:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/4d19c97d-a020-4651-8fd9-6e52d376e0d9)
+* Create the Client entity.
+* Create Client Repository.
+* Implement the service.
+* Implement the Controller.
 * Configure the application.properties file for the Client:
 ![image](https://github.com/hhanae/microservices_demo/assets/97336261/186881da-86c8-407f-8914-6dafb3d8f80c)
 * Modify the main class:
@@ -129,14 +125,10 @@ provide you with a step-by-step guide on how to create separate Spring Boot proj
 * Open your preferred IDE (such as IntelliJ IDEA).
 * Create a new Spring Boot project, named voiture-service
 * Add the necessary dependencies, including Spring Web and Spring Data JPA.
-* Create the Voiture entity:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/e3376945-6e6c-4f79-bb89-97d1be70224c)
-* Create Voiture Repository:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/e0097087-6a46-44df-933e-ec3b46c4e495)
-* Implement the service:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/03cbda0e-1097-4977-acff-d21b7b7b18e5)
-* Implement the Controller:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/4e81a074-b2c8-4856-bb7d-c34c3ae743e1)
+* Create the Voiture entity.
+* Create Voiture Repository.
+* Implement the service.
+* Implement the Controller.
 * Configure the application.properties file for the Voiture:
 ![image](https://github.com/hhanae/microservices_demo/assets/97336261/18d05393-480f-434a-afe8-cf96509b7def)
 * Modify the main class:
