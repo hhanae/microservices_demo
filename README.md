@@ -116,9 +116,8 @@ provide you with a step-by-step guide on how to create separate Spring Boot proj
 * Implement the service.
 * Implement the Controller.
 * Configure the application.properties file for the Client:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/186881da-86c8-407f-8914-6dafb3d8f80c)
 * Modify the main class:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/75c3b8e3-4b5e-4b11-a1e5-8faf6fe46e1d)
+![image](https://github.com/hhanae/microservices_demo/assets/97336261/186881da-86c8-407f-8914-6dafb3d8f80c)
 
 
 ### Step 2: Create a Spring Boot Project for Voiture MicroService
