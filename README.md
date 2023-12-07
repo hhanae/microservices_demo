@@ -103,17 +103,11 @@ microservices-demo
 ```
 
 
-## Download
+## Steps
 
 You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Markdownify for Windows, macOS and Linux.
 
-## Emailware
 
-Markdownify is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this app or it has helped you in any way, I'd like you send me an email at <bullredeyes@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
-
-## Credits
-
-This software uses the following open source packages:
 
 - [Electron](http://electron.atom.io/)
 - [Node.js](https://nodejs.org/)
