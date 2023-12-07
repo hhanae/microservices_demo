@@ -37,7 +37,11 @@ Creating a microservices project with Spring Boot involves several prerequisites
 * Knowledge of Spring Boot Features
 * Containerization Tool: DOCKER
 * Database: MySQL
-   
+
+
+> **Note**
+> Docker is a prerequisities if you want to containerize the project. If you want just to get started with the microservices architecture without containerizing it you don't have to install Docker.
+
 
 ## Project Structure
 
@@ -97,9 +101,6 @@ microservices-demo
 |   |       |           |-- application.properties
 
 ```
-
-> **Note**
-> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
 
 ## Download
