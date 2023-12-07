@@ -164,7 +164,7 @@ provide you with a step-by-step guide on how to create separate Spring Boot proj
 Browse for the microservice clients:
 ![image](https://github.com/hhanae/microservices_demo/assets/97336261/22d93cc7-cf7b-460e-8890-955e03fbe2b4)
 Browse for the microservice voitures:
-![Uploading image.png…]()
+![image](https://github.com/hhanae/microservices_demo/assets/97336261/a48c0937-2cde-4b92-bce2-1122937f637f)
 
 
 ### Step 6: Containerize the app:
