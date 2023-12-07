@@ -15,7 +15,7 @@
   <a href="#getting_started">Getting Started</a> •
   <a href="#prerequisites">Prerequisites</a> •
   <a href="#project_structure">Project Stucture</a> •
-  <a href="#steps">Steps</a> •
+  <a href="#steps">Steps</a> 
 </p>
 
 
