@@ -128,10 +128,9 @@ provide you with a step-by-step guide on how to create separate Spring Boot proj
 * Create Voiture Repository.
 * Implement the service.
 * Implement the Controller.
-* Configure the application.properties file for the Voiture:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/18d05393-480f-434a-afe8-cf96509b7def)
+* Configure the application.properties file for the Voiture.
 * Modify the main class:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/22b30f6f-c3d9-433d-8bf0-34c95cedb422)
+![image](https://github.com/hhanae/microservices_demo/assets/97336261/c52c445d-2c6d-409b-b87d-5155e13f58d7)
 
 ### Step 3: Create a Spring Boot Project for Eureka Server
 * Open your IDE.
