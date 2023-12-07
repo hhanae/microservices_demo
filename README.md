@@ -107,38 +107,38 @@ microservices-demo
 
 provide you with a step-by-step guide on how to create separate Spring Boot projects for the client service, voiture service, Eureka server, and Spring Cloud Gateway.
 
-### Step 1: Create a Spring Boot Project for Client Service
+### Step 1: Create a Spring Boot Project for Client MicroService
 * Open your preferred IDE (such as IntelliJ IDEA).
-* Create a new Spring Boot project, named client-service
+* Create a new Spring Boot project, named client-service.
 * Add the necessary dependencies, including Spring Web and Spring Data JPA.
 * Create the Client entity:
+  ```bash
+
+  ```
 * Create Client Repository:
+  
 * Implement the service:
 * Implement the Controller:
-### Step 2: Create a Spring Boot Project for Voiture Service
+### Step 2: Create a Spring Boot Project for Voiture MicroService
 * Open your preferred IDE (such as IntelliJ IDEA).
-* Create a new Spring Boot project, named client-service
+* Create a new Spring Boot project, named voiture-service
 * Add the necessary dependencies, including Spring Web and Spring Data JPA.
-* Create the Client entity:
-* Create Client Repository:
+* Create the Voiture entity:
+* Create Voiture Repository:
 * Implement the service:
 * Implement the Controller:
 ### Step 3: Create a Spring Boot Project for Eureka Server
-* Open your preferred IDE (such as IntelliJ IDEA).
-* Create a new Spring Boot project, named client-service
-* Add the necessary dependencies, including Spring Web and Spring Data JPA.
-* Create the Client entity:
-* Create Client Repository:
-* Implement the service:
-* Implement the Controller:
+* Open your IDE.
+* Create a new Spring Boot project.
+* Add the necessary dependencies, including Eureka Server.
+* Annotate the main class with @EnableEurekaServer.
+* Configure the application.properties file for the Eureka server.
 ### Step 4: Create a Spring Boot Project for Spring Cloud Gateway
-* Open your preferred IDE (such as IntelliJ IDEA).
-* Create a new Spring Boot project, named client-service
-* Add the necessary dependencies, including Spring Web and Spring Data JPA.
-* Create the Client entity:
-* Create Client Repository:
-* Implement the service:
-* Implement the Controller:
+* Open your IDE.
+* Create a new Spring Boot project.
+* Add the necessary dependencies, including Spring Cloud Gateway.
+* Create a GatewayConfig class to configure routes.
+* Configure the application.properties file for the gateway.
 ### Step 5: Containerize the app:
 
 ## You may also like...
