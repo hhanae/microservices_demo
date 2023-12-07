@@ -164,23 +164,8 @@ Browse for the microservice voitures:
 
 ### Step 6: Containerize the app:
 
-First, we generate the jars of each project by running the command below in each service:
-```bash
-mvn package
-```
-Before we continue, be sure the jar was generated in the target folder:
+If you want to persue the step of containerization please go to the <a href="https://cloud.google.com/learn/what-is-microservices-architecture?hl=fr#:~:text=L'architecture%20de%20microservices%20(ou,%C3%A9l%C3%A9ment%20ayant%20ses%20propres%20responsabilit%C3%A9s.)" target="_blank">docker-lab-demo</a> repository!
 
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/dde949a1-8a3e-4705-8b15-91a090c872c6)
-
-Second, we create a dockerfile in each project and we add its associated jar:
-```bash
-
-```
-## License
-
-MIT
-
----
 
 > Portfolio [@hanim_hanae]([https://twitter.com/amit_merchant](https://hanim-hanae.vercel.app/)https://hanim-hanae.vercel.app/)
 
