@@ -30,6 +30,16 @@ Thus, even the most complex multi-stage tasks can be implemented with the least 
 
 ## Prerequisites
 
+Creating a microservices project with Spring Boot involves several prerequisites. Here are the key prerequisites you'll need to set up before starting your microservices project:
+	* Java Development Kit (JDK)
+ 	* Integrated Development Environment (IDE) like IntelliJ IDEA
+  	* Knowledge of Spring Boot Features
+   	* Containerization Tool: DOCKER
+    	* Database: MySQL
+   
+
+## Prerequisites
+
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
