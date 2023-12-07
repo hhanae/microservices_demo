@@ -12,11 +12,10 @@
 
 <p align="center">
   <a href="#why">Why to work with Microservices Architecture ?</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
-  <a href="#license">License</a>
+  <a href="#how-to-use">How To Work with it?</a> •
+  <a href="#getting_started">Getting Started</a> •
+  <a href="#prerequisites">Prerequisites</a> •
+  <a href="#steps">Steps</a> •
 </p>
 
 
