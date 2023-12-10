@@ -105,42 +105,32 @@ microservices-demo
 
 ## Steps
 
-provide you with a step-by-step guide on how to create separate Spring Boot projects for the client service, voiture service, Eureka server, and Spring Cloud Gateway.
+Here we provide you with a step-by-step guide on how to create separate Spring Boot projects for the client service, voiture service, Eureka server, and Spring Cloud Gateway.
 
 ### Step 1: Create a Spring Boot Project for Client MicroService
 * Open your preferred IDE (such as IntelliJ IDEA).
 * Create a new Spring Boot project, named client-service.
 * Add the necessary dependencies, including Spring Web and Spring Data JPA.
-* Create the Client entity:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/5d31aeb8-c7d3-4fa5-9593-bc3f2c6d2acb)
-* Create Client Repository:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/8362d8f1-31b6-4ba1-8712-a63a17066d3d)
-* Implement the service:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/30d8e13c-d39b-47f9-a0db-0d32008fdc73)
-* Implement the Controller:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/4d19c97d-a020-4651-8fd9-6e52d376e0d9)
+* Create the Client entity.
+* Create Client Repository.
+* Implement the service.
+* Implement the Controller.
 * Configure the application.properties file for the Client:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/186881da-86c8-407f-8914-6dafb3d8f80c)
 * Modify the main class:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/75c3b8e3-4b5e-4b11-a1e5-8faf6fe46e1d)
+![image](https://github.com/hhanae/microservices_demo/assets/97336261/186881da-86c8-407f-8914-6dafb3d8f80c)
 
 
 ### Step 2: Create a Spring Boot Project for Voiture MicroService
 * Open your preferred IDE (such as IntelliJ IDEA).
 * Create a new Spring Boot project, named voiture-service
 * Add the necessary dependencies, including Spring Web and Spring Data JPA.
-* Create the Voiture entity:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/e3376945-6e6c-4f79-bb89-97d1be70224c)
-* Create Voiture Repository:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/e0097087-6a46-44df-933e-ec3b46c4e495)
-* Implement the service:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/03cbda0e-1097-4977-acff-d21b7b7b18e5)
-* Implement the Controller:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/4e81a074-b2c8-4856-bb7d-c34c3ae743e1)
-* Configure the application.properties file for the Voiture:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/18d05393-480f-434a-afe8-cf96509b7def)
+* Create the Voiture entity.
+* Create Voiture Repository.
+* Implement the service.
+* Implement the Controller.
+* Configure the application.properties file for the Voiture.
 * Modify the main class:
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/22b30f6f-c3d9-433d-8bf0-34c95cedb422)
+![image](https://github.com/hhanae/microservices_demo/assets/97336261/c52c445d-2c6d-409b-b87d-5155e13f58d7)
 
 ### Step 3: Create a Spring Boot Project for Eureka Server
 * Open your IDE.
@@ -174,23 +164,8 @@ Browse for the microservice voitures:
 
 ### Step 6: Containerize the app:
 
-First, we generate the jars of each project by running the command below in each service:
-```bash
-mvn package
-```
-Before we continue, be sure the jar was generated in the target folder:
+If you want to persue the step of containerization please go to the <a href="https://cloud.google.com/learn/what-is-microservices-architecture?hl=fr#:~:text=L'architecture%20de%20microservices%20(ou,%C3%A9l%C3%A9ment%20ayant%20ses%20propres%20responsabilit%C3%A9s.)" target="_blank">docker-lab-demo</a> repository!
 
-![image](https://github.com/hhanae/microservices_demo/assets/97336261/dde949a1-8a3e-4705-8b15-91a090c872c6)
 
-Second, we create a dockerfile in each project and we add its jar associated:
-```bash
-
-```
-## License
-
-MIT
-
----
-
-> Portfolio [@hanim_hanae]([https://twitter.com/amit_merchant](https://hanim-hanae.vercel.app/)https://hanim-hanae.vercel.app/)
+> [@hanim_hanae]([https://twitter.com/amit_merchant](https://hanim-hanae.vercel.app/)https://hanim-hanae.vercel.app/)
 
