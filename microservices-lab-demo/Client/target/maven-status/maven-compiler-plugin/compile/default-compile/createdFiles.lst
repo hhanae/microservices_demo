@@ -1,0 +1,5 @@
+org\ensaj\client\Service\ClientService.class
+org\ensaj\client\ClientApplication.class
+org\ensaj\client\Model\Client.class
+org\ensaj\client\Controller\ClientController.class
+org\ensaj\client\Repository\ClientRepository.class

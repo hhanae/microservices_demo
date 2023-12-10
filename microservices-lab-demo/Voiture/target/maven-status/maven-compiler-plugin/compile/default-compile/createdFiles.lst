@@ -1,0 +1,7 @@
+org\ensaj\voiture\VoitureApplication$ClientService.class
+org\ensaj\voiture\VoitureApplication.class
+org\ensaj\voiture\Model\Voiture.class
+org\ensaj\voiture\Repository\VoitureRepository.class
+org\ensaj\voiture\Controller\VoitureController.class
+org\ensaj\voiture\Service\VoitureService.class
+org\ensaj\voiture\Client.class

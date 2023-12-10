@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.ensaj.eureka_server.EurekaServerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.058 s -- in org.ensaj.eureka_server.EurekaServerApplicationTests

@@ -1,0 +1,5 @@
+# Created at 2023-12-10T02:58:30.458
+Boot Manifest-JAR contains absolute paths in classpath 'E:\hanae_ms\microservices_demo-main\microservices_demo-main\microservices-lab-demo\Voiture\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
